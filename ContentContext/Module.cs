@@ -1,6 +1,6 @@
 namespace Murillo.ContentContext
 {
-  public class Module
+  public class Module : BaseContent
   {
     public Module()
     {

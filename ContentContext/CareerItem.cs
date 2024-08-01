@@ -1,11 +1,13 @@
+using Murillo.NotificationContext;
+
 namespace Murillo.ContentContext
 {
-  public class CareerItem
+  public class CareerItem : BaseContent
   {
     public CareerItem(int ordem, string title, string description, Course course)
     {
       if (course == null)
-        throw new Exception("O curso não pode ser nulo");
+        AddNotification(new Notification("Course", "Curso Invalido"));
         
       Order = ordem;
       Title = title;

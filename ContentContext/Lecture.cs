@@ -2,7 +2,7 @@ using Murillo.ContentContext.Enums;
 
 namespace Murillo.ContentContext
 {
-  public class Lecture
+  public class Lecture : BaseContent
   {
     public int Order { get; set; }
     public string Title { get; set; }

@@ -12,3 +12,4 @@ C:\dev\Murillo\obj\Debug\net8.0\refint\Murillo.dll
 C:\dev\Murillo\obj\Debug\net8.0\Murillo.pdb
 C:\dev\Murillo\obj\Debug\net8.0\Murillo.genruntimeconfig.cache
 C:\dev\Murillo\obj\Debug\net8.0\ref\Murillo.dll
+C:\dev\Murillo\obj\Debug\net8.0\Murillo.sourcelink.json
