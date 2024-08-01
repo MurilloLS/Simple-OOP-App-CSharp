@@ -1,4 +1,5 @@
 using Murillo.NotificationContext;
+using Murillo.SharedContext;
 
 namespace Murillo.ContentContext
 {

@@ -1,4 +1,5 @@
 using Murillo.ContentContext.Enums;
+using Murillo.SharedContext;
 
 namespace Murillo.ContentContext
 {

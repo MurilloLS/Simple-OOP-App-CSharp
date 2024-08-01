@@ -1,3 +1,5 @@
+using Murillo.SharedContext;
+
 namespace Murillo.ContentContext
 {
   public class Module : BaseContent

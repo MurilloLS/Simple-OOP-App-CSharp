@@ -1,5 +1,6 @@
 ﻿using System.Linq;
 using Murillo.ContentContext;
+using Murillo.SubscriptionContext;
 
 namespace Murillo
 {
@@ -7,7 +8,10 @@ namespace Murillo
   {
     static void Main(string[] args)
     {
-      
+      var payPalSubscription = new PayPalSubscription();
+
+      var student = new Student();
+      student.CreateSubscription(payPalSubscription);
     }
   }
 }
